@@ -1,8 +1,7 @@
-import Data
 
 def getTime(){
 
-    Data data = new Data()
+    JenkinsData data = new JenkinsData()
     return data.getCurrentData()
 }
 

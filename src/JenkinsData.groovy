@@ -1,6 +1,6 @@
 import java.text.SimpleDateFormat
 
-class Data {
+class JenkinsData {
 
     String getCurrentData(){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
