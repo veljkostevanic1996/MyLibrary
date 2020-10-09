@@ -4,7 +4,7 @@ class Data {
 
     String getCurrentData(){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
-        Data data = new Data()
+        Date data = new Date()
 
         String time = dateFormat.format(data)
         return  time
