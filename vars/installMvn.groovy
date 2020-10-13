@@ -1,5 +1,6 @@
 
 def install(){
 
-    "mvn clean install".execute()
+    def pom = "mvn clean install"
+    return pom
 }
