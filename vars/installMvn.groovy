@@ -1,6 +1,5 @@
 
 def install(){
 
-    def pom = "mvn clean install".execute()
-    return pom.toString()
+    "cd /home/vstevanic/Maven1 && mvn clean install".execute()
 }
